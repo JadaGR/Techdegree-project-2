@@ -5,7 +5,8 @@
 }
 
 /* base styles /////////*/
-h1 {
+h1,
+h2 {
     text-align: center;
 
 }
@@ -46,6 +47,13 @@ body {
     float: right;
 
 }
+
+.group::after{
+    content: "";
+    display: table;
+    clear: both;
+
+}
 /* Media Queries  //////*/
 
 @media (min-width: 320px) {
@@ -80,4 +88,60 @@ body {
 
 }
 
+@media (min-width: 768px){
 
+  
+  
+  
+  
+  .person {
+    width: 50%;
+    float: right;
+    margin-bottom: 70px;
+
+  }
+
+  .main-nav li {
+ 
+    display: inline;
+    padding: 20px;
+
+  }
+  
+  
+  
+    .image {
+    width: 100%;
+
+   }
+
+   .marketing,
+   .travel,
+   .photo,
+   .html {
+        width: 50%;
+        float: left;
+        
+
+   }
+
+   .search,
+   .map,
+   .calculator,
+   .css {
+        width: 50%;
+        float: right;
+
+   }
+
+ 
+
+  
+
+  
+   
+
+  
+
+   
+}
