@@ -1,6 +1,83 @@
 
+* {
+    box-sizing: border-box;
+
+}
+
+/* base styles /////////*/
+h1 {
+    text-align: center;
+
+}
 
 body {
     font-family: 'Open Sans', sans-serif;
     
     }
+
+
+
+
+/* class selectors  //////*/
+
+.main-nav {
+    display: block;
+    background-color: white;
+    text-align: center;
+   
+    line-height: 2rem;
+    
+}
+
+.main-nav li {
+    text-align: center;
+    list-style: none;
+    width: 90%;
+
+}
+
+
+.bottom-name {
+    float: left;
+
+}
+
+.bottom-link {
+    float: right;
+
+}
+/* Media Queries  //////*/
+
+@media (min-width: 320px) {
+    
+    main {
+        width: 90%;
+        padding: 20px;
+        text-align: center;
+    }
+
+    body {
+        text-align: center;
+        padding: 20px;
+    }
+
+    .image {
+        width: 90%;
+        padding: 20px;
+    
+    }
+
+    .person {
+        padding: 20px 50px;
+
+    }
+
+    .footer {
+        text-align: center;
+        width: 90%;
+
+    }
+
+}
+
+
