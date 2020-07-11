@@ -19,9 +19,13 @@ body {
 
 
 
+
+
+
 /* class selectors  //////*/
 
-.main-nav {
+.main-nav,
+.footer-nav {
     display: block;
     background-color: white;
     text-align: center;
@@ -30,7 +34,8 @@ body {
     
 }
 
-.main-nav li {
+.main-nav li,
+.footer-nav li {
     text-align: center;
     list-style: none;
     width: 90%;
@@ -86,6 +91,11 @@ body {
 
     }
 
+    .footer-nav {
+        display: hidden;
+
+    }
+
 }
 
 @media (min-width: 768px){
@@ -134,14 +144,86 @@ body {
 
    }
 
- 
+ .bottom-link {
+    display: none;
 
-  
+ }
 
-  
-   
+ .footer-nav li {
+     padding: 20px;
+    display: inline;
 
-  
+    
 
-   
 }
+}
+       
+
+@media (min-width: 1024px){
+
+    .image {
+        width: 100%;
+    
+       }
+
+       .marketing,
+       .map,
+       .html {
+            width: 30%;
+            float: left;
+            
+    
+       }
+    
+       .search,
+       .photo{
+            width: 30%;
+            text-align: center;
+            padding: 20px;
+            
+    
+       }  
+
+
+       .travel,
+       .calculator,
+       .css {
+            width: 30%;
+            float: right;
+    
+       }  
+
+       .main-nav li{
+        display: inline;
+
+       }
+
+       h1{
+        display: inline;
+
+       }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
