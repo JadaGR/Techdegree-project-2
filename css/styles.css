@@ -15,6 +15,9 @@ body {
     font-family: 'Open Sans', sans-serif;
     
     }
+ main {
+        margin: auto;
+    }
 
   .main-nav a:hover{
       color: blue;
@@ -103,7 +106,7 @@ body {
 
     }
 
-    .footer-nav {
+    .footer-nav li {
         display: hidden;
 
     }
@@ -167,6 +170,12 @@ body {
     
 
 }
+
+.top-row,
+.bottom-row {
+    height: 400px;
+}
+
 }
        
 
@@ -178,7 +187,7 @@ body {
        }
 
      .person {
-        max-width: 70%;
+        max-width: 80%;
         text-align: center; 
         margin: auto;
      }
@@ -186,16 +195,18 @@ body {
      .top-row{
          width: 33.3%;
          float: left;
-         margin: auto;
+        
         
      }
 
      .bottom-row {
             width: 33.3%;
             float: left;
-            margin: auto;
+           
 
      }
+
+    
 
        
 
@@ -207,14 +218,15 @@ body {
      }
 
      .name {
-        margin-right: 500px;
+        margin-right: 300px;
 
      }
      
     
 
      .bottom-name {
-        margin-right: 500px;
+        margin-right: 300px;
+       
 
      }
 
