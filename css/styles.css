@@ -16,10 +16,22 @@ body {
     
     }
 
+  .main-nav a:hover{
+      color: blue;
+  }  
 
+  .footer-nav a:hover {
+    color: blue;
 
+  }
 
+  .bottom-link a:hover {
+    color: blue;
+  }
 
+ .text {
+     color: darkcyan;
+ }
 
 
 /* class selectors  //////*/
@@ -128,12 +140,10 @@ body {
    .marketing,
    .travel,
    .photo,
-   .html {
+   .html{
         width: 50%;
         float: left;
-        
-
-   }
+     }
 
    .search,
    .map,
@@ -143,6 +153,7 @@ body {
         float: right;
 
    }
+
 
  .bottom-link {
     display: none;
@@ -166,47 +177,46 @@ body {
     
        }
 
-       .marketing,
-       .map,
-       .html {
-            width: 30%;
+     .person {
+        max-width: 70%;
+        text-align: center; 
+        margin: auto;
+     }
+
+     .top-row{
+         width: 33.3%;
+         float: left;
+         margin: auto;
+        
+     }
+
+     .bottom-row {
+            width: 33.3%;
             float: left;
-            
+            margin: auto;
+
+     }
+
+       
+
+     .name ,
+     .main-nav,
+     .main-nav li {
+         display: inline;
+
+     }
+
+     .name {
+        margin-right: 500px;
+
+     }
+     
     
-       }
-    
-       .search,
-       .photo{
-            width: 30%;
-            text-align: center;
-            padding: 20px;
-            
-    
-       }  
 
+     .bottom-name {
+        margin-right: 500px;
 
-       .travel,
-       .calculator,
-       .css {
-            width: 30%;
-            float: right;
-    
-       }  
-
-       .main-nav li{
-        display: inline;
-
-       }
-
-       h1{
-        display: inline;
-
-       }
-
-
-
-
-
+     }
 
 
 
