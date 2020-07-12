@@ -107,7 +107,7 @@ body {
     }
 
     .footer-nav li {
-        display: hidden;
+        display: none;
 
     }
 
