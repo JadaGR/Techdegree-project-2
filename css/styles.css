@@ -13,10 +13,14 @@ h2 {
 
 body {
     font-family: 'Open Sans', sans-serif;
-    
+    text-align: center;
+    padding: 20px;
     }
  main {
         margin: auto;
+        width: 90%;
+        padding: 20px;
+        text-align: center;
     }
 
   .main-nav a:hover{
@@ -32,8 +36,16 @@ body {
     color: blue;
   }
 
+  
+
  .text {
      color: darkcyan;
+ }
+
+ a {
+    text-decoration: none;
+    color: darkolivegreen;
+
  }
 
 
@@ -74,44 +86,38 @@ body {
     clear: both;
 
 }
-/* Media Queries  //////*/
 
-@media (min-width: 320px) {
-    
-    main {
-        width: 90%;
-        padding: 20px;
-        text-align: center;
-    }
 
-    body {
-        text-align: center;
-        padding: 20px;
-    }
-
-    .image {
-        width: 90%;
-        padding: 20px;
-    
-    }
-
-    .person {
-        padding: 20px 50px;
-
-    }
-
-    .footer {
-        text-align: center;
-        width: 100%;
-
-    }
-
-    .footer-nav li {
-        display: none;
-
-    }
+.person {
+    padding: 20px 50px;
 
 }
+
+.footer {
+    text-align: center;
+    width: 100%;
+
+}
+
+.footer-nav li {
+    display: none;
+
+}
+
+.image {
+    width: 90%;
+    padding: 20px;
+
+}
+
+.person-image {
+    width: 90%;
+    max-width: 90%;
+
+ }
+
+/* Media Queries  //////*/
+
 
 @media (min-width: 768px){
 
@@ -124,12 +130,7 @@ body {
   
   
   
-  .person {
-    width: 50%;
-    float: right;
-    margin-bottom: 70px;
-
-  }
+ 
 
   .main-nav li {
  
@@ -181,10 +182,12 @@ body {
     height: 400px;
 }
 
-.skills {
-    height: 400px;
-}
 
+
+.person {
+    width: 50%;
+    float: right;
+}
 
 }
        
@@ -253,12 +256,4 @@ body {
 
 
 }
-
-
-
-
-
-
-
-
 
